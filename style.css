@@ -1,0 +1,19 @@
+.book-item {
+    display: inline-block;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .book-item {
+      width: calc(33.33% - 20px);
+    }
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .book-item {
+      width: calc(25% - 20px);
+    }
+  }
+  
